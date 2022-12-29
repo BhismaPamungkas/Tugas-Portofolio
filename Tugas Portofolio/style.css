@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  background: url(img/Foto_BG1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card{
+  width: 400px;
+  text-align: center;  
+}
+
+.card-header{
+  background: #393e46a9;
+  padding: 60px 60px;
+}
+
+.foto{
+  display: inline-block;
+  margin: auto;
+}
+
+.foto img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.nama{
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.about{
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.deskripsi{
+  color: #6D9886;
+  font-size: 18px;
+}
+
+.sosial{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sosial a{
+  color: #f2f2f2;
+  width: 40px;
+  font-size: 22px;
+}
+
+.sosial a:hover{
+  color: #6D9886;
+}
+
+.more{
+  color: #f2f2f2;
+  padding: 12px 50px;
+  margin-top: 16px;
+}
+
+.more:hover{
+  background: #6D9886;
+}
+
+.footer {
+  background-color: #6D9886;
+  width: 100%;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
